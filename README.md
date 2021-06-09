@@ -7,3 +7,10 @@ Setup PostgreSQL on Ubuntu
 ```
 sudo apt install postgresql postgresql-contrib
 ```
+
+## Use it
+
+```
+sudo -i -u postgres
+psql
+```
