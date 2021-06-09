@@ -1,3 +1,9 @@
 # PostgreSQL Setup Sccripts
 
- Setup postgreSQL on Ubuntu
+Setup PostgreSQL on Ubuntu
+
+## Install PostgreSQL
+
+```
+sudo apt install postgresql postgresql-contrib
+```
