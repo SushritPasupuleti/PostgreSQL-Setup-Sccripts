@@ -33,3 +33,9 @@ Create DB for user
 ```
 sudo -u postgres createdb sammy
 ```
+
+Set password for User
+
+```
+ALTER USER sammy PASSWORD 'newpassword';
+```
