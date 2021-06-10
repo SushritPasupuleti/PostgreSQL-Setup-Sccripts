@@ -39,3 +39,17 @@ Set password for User
 ```
 ALTER USER sammy PASSWORD 'newpassword';
 ```
+
+## Backup and Restore
+
+SQL Dump
+
+```
+pg_dump dbname > outfile
+```
+
+Restore Dump
+
+```
+psql dbname < infile
+```
