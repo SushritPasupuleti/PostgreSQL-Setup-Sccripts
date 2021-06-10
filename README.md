@@ -53,3 +53,13 @@ Restore Dump
 ```
 psql dbname < infile
 ```
+
+**Important Options**
+
+```
+pg_dump dbname -U potgres -p 5432 > outfile
+```
+
+- `-U xxx`: Specifies potgres user account to use
+
+- `-p xxx`: Specifies the port number
